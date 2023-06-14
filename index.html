@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+
+<div class="counter">
+<p id="welcome-el" class="welcome"></p>
+
+<h1>Javascript Counter</h1>
+<hr>
+<h2 id="count-el">0</h2>
+
+<button id="increment-btn" class="btn-inc" onclick="increment()">Increment</button>
+
+<button id="btn-save" class="btn-save" onclick="save()">Save</button>
+<h2 >History of Counts </h2>
+<h3 id="error"></h3>
+<h2 id="saved"></h2>
+
+<br>
+<button onclick="clearData()">Clear</button>
+<button onclick="errorHandler()">Error</button>
+		</div>
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>

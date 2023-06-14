@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+
+body{
+	font-family: 'Geologica', sans-serif;
+	background-color: #606C5D;
+}
+
+
+.welcome{
+	font-size: 25px;
+}
+
+.counter h1{
+	color: #F1D4E5;
+}
+
+.counter h2{
+	color: #000;
+}
+
+.counter{
+	text-align: center;
+	background-color: grey;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 2%;
+	padding: 5%;
+	border-radius: 25px;
+}
+
+
+.counter button{
+	background-color: #F7E6C4;
+	font-family: 'Geologica', sans-serif;
+	width: 250px;
+	height: 60px;
+	transition: 300ms;
+	letter-spacing: 3px;
+	border-radius: 25px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.counter .btn-inc:hover{
+	background-color: #4F709C;
+}
+
+.counter .btn-save:hover{
+	background-color: #116A7B;
+}
+
+
+.cards h1{
+	color: #FFE569;
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: 3px;
+}
+
+#message-el{
+	font-size: 35px;
+}
+
+.cards p{
+	color: #Fff;
+	text-align: center;
+	font-size: 30px;
+}
+
+.cards{
+	font-family: 'Geologica', sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards button{
+	display: block;
+	margin: 2% auto;
+	background-color: #47A992;
+	font-weight: bold;
+	width: 220px;
+	height: 40px;
+	border-radius: 25px;
+	transition: 400ms;
+}
+
+.cards button:hover{
+	background-color: #F79327;
+}
